@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Testes
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ 
+  <div id="container">
+    
+    <ion-button (click)="writeFile()">Ler Arquivo</ion-button>
+    <ion-button (click)="readFile()">Salvar Arquivo</ion-button>
+    <ion-button (click)="deleteFile()">Deletar Arquivo</ion-button>
+    <ion-button (click)="readFilePath()">Ler Por Caminho</ion-button>
+
+  </div>
+</ion-content>
